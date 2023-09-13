@@ -1,0 +1,29 @@
+.screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(138, 138, 138, .5);
+  overflow: hidden;
+  gap: 5px;
+
+}
+
+.value {
+  display: flex;
+  padding: 0 20;
+  font-size: 25px;
+  color: #777;
+  height: 20px;
+}
+
+.result {
+  font-size: 48px;
+  color: #292929;
+}
+
+.dark .result {
+  color: #f2f2f2;
+}

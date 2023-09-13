@@ -1,0 +1,25 @@
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 15px;
+  height: 35px;
+  background-color: transparent;
+  color: #3a3a3a;
+  box-shadow: 4px 4px 20px -8px rgba(0,0,0,0.75);
+  outline: none;
+  border: none;
+}
+.dark button {
+  color: #f2f2f2;
+}
+
+.dark .operator,
+.operator {
+  display: flex;
+  font-size: 16px;
+  color: #ff5c00;
+  box-shadow: none;
+}
